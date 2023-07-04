@@ -16,7 +16,7 @@ source $Server_Dir/.env
 Conf_Dir="$Server_Dir/conf"
 Temp_Dir="$Server_Dir/temp"
 Log_Dir="$Server_Dir/logs"
-URL=${CLASH_URL}
+URL="https://s1.bnpublicsub.net/api/v1/client/subscribe?token=b730277dda34ad3f647cb5f0bf23187c"
 
 # 获取CLASH SECRET 值
 if [ ! $CLASH_SECRET ]; then

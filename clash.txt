@@ -1,0 +1,23 @@
+
+正在检测订阅地址...
+Clash订阅地址可访问！ [60G[[1;32m  OK  [0;39m]
+
+正在下载Clash配置文件...
+配置文件config.yaml下载成功！ [60G[[1;32m  OK  [0;39m]
+
+判断订阅内容是否符合clash配置文件标准:
+解码后的内容不符合clash标准，尝试将其转换为标准格式
+配置文件已成功转换成clash标准格式
+
+正在启动Clash服务...
+服务启动成功！ [60G[[1;32m  OK  [0;39m]
+
+Clash Dashboard 访问地址: http://<ip>:9090/ui
+Secret: d5eab9dfa5a5a3e8900e9ee11c4ecdfeec07210c2c62b1ef98146de9eec258a6
+
+请执行以下命令加载环境变量: source /etc/profile.d/clash.sh
+
+请执行以下命令开启系统代理: proxy_on
+
+若要临时关闭系统代理，请执行: proxy_off
+
